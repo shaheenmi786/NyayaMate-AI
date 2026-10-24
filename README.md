@@ -88,8 +88,8 @@ cp .env.example .env
 ```
 Edit `.env` with your Supabase credentials (or enter them directly in the app via **Settings & Database**):
 ```env
-VITE_SUPABASE_URL=https://kzqhktspkarhunxdsxsp.supabase.co/rest/v1/
-VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt6cWhrdHNwa2FyaHVueGRzeHNwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI3NzU0MDksImV4cCI6MjEwODM1MTQwOX0.beT2HgTDIODQQn6LRSx4xgS953RX5-b4_iaT9Mqxdao
+VITE_SUPABASE_URL=https://kzqhktspkarhunxdsxsp.supabase.co
+VITE_SUPABASE_ANON_KEY=sb_publishable_Kvm5xlwdBO_ttwuf_oRgIQ_ge05KYXj
 ```
 *(Note: If left empty or placeholder, the app gracefully operates in Local Mode with zero errors!)*
 
